@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: '38 6 23 * *'
+    - cron: '38 6 26 * *'
 
 jobs:
   auto_renew:
