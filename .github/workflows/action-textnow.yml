@@ -67,5 +67,5 @@ jobs:
       run: |
         mkdir .cache
         if [ -e ~/cache.tgz ]; then tar zxf ~/cache.tgz; fi
-        python scripts/_textnow.py
+        # python scripts/_textnow.py
         tar zcf ~/cache.tgz .cache
